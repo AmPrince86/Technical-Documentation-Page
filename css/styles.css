@@ -58,10 +58,14 @@ main {
 main {
   padding-left: 35px;
 }
+h1 {
+  line-height: 40px;
+}
 
 ul {
   padding-left: 40px;
 }
+
 .function {
   background-color: #f7f7f7;
   border-radius: 5px;

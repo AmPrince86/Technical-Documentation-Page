@@ -2,7 +2,6 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    padding: 0;
     margin: 0;
 }
 
@@ -10,6 +9,10 @@
 #navbar {
     border-right: solid 2px gray;
     height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
     
 }
 #navbar a {
@@ -18,7 +21,10 @@
 }
 
 #navbar ul {
-    padding: 0;   
+    padding: 0;
+    height: 88%; 
+    overflow-y: auto;
+    overflow-x: hidden;  
 }
 
 #navbar li {
@@ -26,6 +32,7 @@
      border-top: solid 1px;
      width: 100%;
      padding: 15px;
+     position: relative;
 }
 
 #navbar header {
@@ -67,6 +74,7 @@ h1 {
 
 ul {
   padding-left: 40px;
+  margin-top: 15px;
 }
 
 .function {

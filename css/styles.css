@@ -5,28 +5,28 @@
 }
 
 /***************************NAV-BAR**************************************/
-#nav-bar {
+#navbar {
     border-right: solid 2px gray;
     height: 100%;
     
 }
-#nav-bar a {
+#navbar a {
     text-decoration: none;
     color: black;
 }
 
-#nav-bar ul {
+#navbar ul {
     padding: 0;   
 }
 
-#nav-bar li {
+#navbar li {
      list-style-type: none;
      border-top: solid 1px;
      width: 100%;
      padding: 15px;
 }
 
-#nav-bar header {
+#navbar header {
     padding: 15px;
     font-size: 34px;
 }

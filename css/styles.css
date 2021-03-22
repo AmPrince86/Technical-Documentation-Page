@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     padding: 0;
     margin: 0;
 }
@@ -57,6 +59,7 @@ main {
 /***************************MAIN**************************************/
 main {
   padding-left: 35px;
+  padding-right: 25px;
 }
 h1 {
   line-height: 40px;
@@ -72,6 +75,22 @@ ul {
   padding: 20px;
   width: 95%;
   font-size: 14px;
+}
+
+header {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+p, div {
+  margin-top: 20px;
+}
+.main-section {
+  line-height: 25px;
+}
+
+#reference {
+  padding-bottom: 35px;
 }
 
 /****************************MEDIA QUERIES*************************************/

@@ -97,7 +97,7 @@ p, div {
   line-height: 25px;
 }
 
-#reference {
+#Reference {
   padding-bottom: 35px;
 }
 
@@ -109,13 +109,42 @@ p, div {
     grid-template-areas: 
     "nav main";
   }
-}
-
-@media (min-width: 992px) {
   .container {
     grid-template-areas: 
     "nav main main"
     "nav main main"
     "nav main main";
   }
+}
+
+@media only screen and (max-width: 815px) {
+  .container {
+    grid-template-areas: 
+    "nav nav nav"
+    "main main main"
+    "main main main";
+  }
+nav#navbar {
+    border: none;
+   position: absolute;
+   top: 0;
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   max-height: 275;
+   z-index: 1;
+   border-bottom: 2px solid;
+ }
+  #navbar ul {
+   border: 1px solid;
+   height: 207px;
+ }
+ #main-doc {
+   position: relative;
+   margin-left: 0;
+   margin-top: 200px;  
+ }
+ header {
+   margin-top: 40px
+ }
 }
